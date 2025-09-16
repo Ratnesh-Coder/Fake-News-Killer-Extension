@@ -1,20 +1,16 @@
-# Fake-News-Killer---Extension
+# Fake-News-Killer-Extension
+
+# Description
 A browser extension that utilises a custom-trained AI model to analyse text for credibility, providing a clear verdict (FAKE/REAL), an AI-powered analysis, and cross-referenced sources. It's designed to help users navigate the news with clarity and to promote credible information online.
 
-Fake-News-Detector
-A browser extension that uses a local AI model to detect fake news and analyze text for credibility, providing a clear verdict, AI-powered analysis, and cross-referenced sources.
-
-Description
-Fake News Killer is your smart companion for navigating the news. Powered by a custom-trained AI model, it instantly analyzes text for patterns of unreliable news and cross-references claims with live search results. This tool is built to promote clarity online.
-
-Features
+# Features
 Text Analysis: Get a credibility score on any text.
 AI-Powered Analysis: Receive a detailed breakdown of why a score was given.
 Live Web Cross-Referencing: See a list of potential sources to verify the information.
 Immediate FAKE/REAL Verdict: Get a quick, clear verdict based on the model's analysis, helping you make an initial assessment in seconds.
 Simple UI: A clean and intuitive pop-up interface for quick checks.
 
-Getting Started
+# Getting Started
 Follow these steps to load the extension in your browser.
 
 1. Project Setup
@@ -35,7 +31,7 @@ Click the Load unpacked button.
 Select your project's main folder.
 The "Fake News Detector" extension should now appear in your browser's toolbar.
 
-How It Works
+# How It Works
 The browser extension operates through three main scripts:
 content.js: This script runs on the active tab and is responsible for detecting and retrieving highlighted text on the page when requested by the popup.
 popup.js: This is the main script for the extension's user interface. It listens for user input or selected text, then sends a message to the background script to initiate the fake news detection process. It also handles updating the popup's UI with the results, including displaying the verdict (REAL/FAKE) and any associated sources.
