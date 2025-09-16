@@ -1,11 +1,7 @@
-# Fake-News-Killer---Extension
-A browser extension that utilises a custom-trained AI model to analyse text for credibility, providing a clear verdict (FAKE/REAL), an AI-powered analysis, and cross-referenced sources. It's designed to help users navigate the news with clarity and to promote credible information online.
-
-Fake-News-Detector
-A browser extension that uses a local AI model to detect fake news and analyze text for credibility, providing a clear verdict, AI-powered analysis, and cross-referenced sources.
+# Fake-News-Killer-Extension
 
 Description
-Fake News Killer is your smart companion for navigating the news. Powered by a custom-trained AI model, it instantly analyzes text for patterns of unreliable news and cross-references claims with live search results. This tool is built to promote clarity online.
+A browser extension that utilises a custom-trained AI model to analyse text for credibility, providing a clear verdict (FAKE/REAL), an AI-powered analysis, and cross-referenced sources. It's designed to help users navigate the news with clarity and to promote credible information online.
 
 Features
 Text Analysis: Get a credibility score on any text.
